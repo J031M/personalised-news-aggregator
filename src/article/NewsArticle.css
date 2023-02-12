@@ -1,0 +1,33 @@
+body {
+    background-color: #181A1B;
+  }
+  
+  .news-article-container {
+    border: 0px solid gray;
+    padding: 50px 500px;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white
+  }
+  
+  h3 {
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: white
+  }
+  
