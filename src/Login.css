@@ -1,0 +1,58 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:#65fcf2ad;
+    background-image: url('./hexa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #61758a;
+    background: rgba(1, 1, 1, 0.5);
+  }
+  
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  
+  .form-input label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-input input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    color: 65fcf249;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #65fcf249;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #65fcf2ad;
+  }

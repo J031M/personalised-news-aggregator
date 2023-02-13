@@ -9,12 +9,32 @@ a {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  background-image: url('./hexa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.recommend-button {
+  margin-top: -20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #36837ebb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.recommend-button:hover {
+  background-color: #65fcf2ad;
 }
 
 .App-header input[type="text"] {
@@ -31,6 +51,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #0e2525;
 }
 
 .Article {
